@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Anthel</string>
+    <string name="Login">Iniciar sesión</string>
+    <string name="singin">Registrarse</string>
+    <string name="email">Email</string>
+    <string name="Password">Contraseña</string>
+    <string name="required_field">"Espacio requerido "</string>
+    <string name="name">Nombre</string>
+    <string name="repPassword">Confirmar contraseña</string>
+    <string name="femenino">Mujer</string>
+    <string name="male">Hombre</string>
+    <string name="date">"Fecha de nacimiento "</string>
+    <string name="nacimiento">"Lugar de nacimiento "</string>
+    <string name="register">Registrarse</string>
+    <string name="info">Info</string>
+    <string name="leftarrow"><![CDATA[<]]></string>
+    <string name="title_activity_nav_view">nav_view</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
