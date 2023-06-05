@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomTheme" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="colorButtonNormal">@color/color1</item>
+        <item name="colorControlHighlight">@color/color2</item>
+    </style>
+</resources>
