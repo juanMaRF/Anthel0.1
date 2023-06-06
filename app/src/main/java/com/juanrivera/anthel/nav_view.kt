@@ -8,6 +8,8 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.juanrivera.anthel.databinding.ActivityNavViewBinding
+import com.juanrivera.anthel.databinding.FragmentDashboardBinding
+import com.juanrivera.anthel.ui.dashboard.DashboardFragment
 
 class nav_view : AppCompatActivity() {
 
@@ -17,11 +19,14 @@ class nav_view : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityNavViewBinding.inflate(layoutInflater)
+
         setContentView(binding.root)
 
         val navView: BottomNavigationView = binding.navView
 
+
         val navController = findNavController(R.id.nav_host_fragment_activity_nav_view)
+
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
@@ -29,7 +34,9 @@ class nav_view : AppCompatActivity() {
                 R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications, R.id.navigation_map
             )
         )
+
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
     }
 }
