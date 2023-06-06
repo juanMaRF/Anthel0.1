@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "105675359320",
+    "project_id": "fir-anthel",
+    "storage_bucket": "fir-anthel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105675359320:android:ee6c76f46257d43fa3362d",
+        "android_client_info": {
+          "package_name": "com.juanrivera.anthel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105675359320-1l5kbav2n2asfpvb9ivrdmd5p4donavd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeWroy4V5kby2ZsFxME-mOX74xX398dkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105675359320-1l5kbav2n2asfpvb9ivrdmd5p4donavd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
